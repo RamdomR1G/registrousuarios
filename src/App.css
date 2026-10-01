@@ -1,0 +1,25 @@
+.contenedor { max-width: 480px; margin: 0 auto; padding: 24px 16px 48px; font-family: system-ui, sans-serif; color: #0f172a; }
+h1 { font-size: 1.6rem; color: #1e3a8a; text-align: center; }
+h2 { font-size: 1.1rem; color: #1e3a8a; margin: 0 0 12px; }
+
+.formulario { background: #f1f5f9; padding: 16px; border-radius: 12px; display: flex; flex-direction: column; gap: 12px; }
+.formulario label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9rem; font-weight: 600; }
+.formulario input { padding: 10px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem; }
+
+button { background: #1e3a8a; color: #fff; border: none; border-radius: 8px; padding: 12px 24px; font-size: 1rem; font-weight: 600; cursor: pointer; }
+button.secundario { background: #64748b; }
+.acciones { display: flex; gap: 8px; }
+.acciones button { flex: 1; }
+.ver { display: block; width: 100%; margin: 16px 0; background: #0f766e; }
+
+.aviso { margin: 12px 0 0; padding: 10px; border-radius: 8px; font-weight: 600; text-align: center; }
+.aviso.ok { background: #dcfce7; color: #166534; }
+.aviso.error { background: #fee2e2; color: #991b1b; }
+
+.vacio { text-align: center; color: #64748b; }
+.tarjeta { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 12px; margin-bottom: 8px; border: 1px solid #e2e8f0; border-radius: 10px; }
+.tarjeta div:first-child { display: flex; flex-direction: column; gap: 2px; min-width: 0; word-break: break-word; }
+.tarjeta span { font-size: 0.85rem; color: #475569; }
+.botones { display: flex; flex-direction: column; gap: 6px; }
+button.chico { padding: 6px 12px; font-size: 0.8rem; }
+button.peligro { background: #b91c1c; }
